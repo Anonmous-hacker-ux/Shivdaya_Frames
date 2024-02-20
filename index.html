@@ -2,113 +2,233 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivdaya Frames</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivdaya Frames</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <!-- navbar section starts -->
-    <div class="header">
-        <img class="header-image" src="./assets/images/1.jpg" alt="">
-        <div class="list">
-            <span><a href="#">Home</a></span>
-            <span><a href="#">About</a></span>
-            <span><a href="#">Frames</a></span>
-            <span><a href="#">Contact Us</a></span>
-        </div>
+  <!-- panel section starts -->
+  <div class="panel">
+    <div class="panel-contact">
+      <div class="email">
+        <i class="fa-solid fa-envelope"></i>
+        <span>akashkumar33380@gmail.com</span>
+      </div>
+      <div class="number">
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <span>+91 7400288925</span>
+      </div>
+
     </div>
-    <!-- navbar section ends  -->
-    <main>
-        <pre>
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+  <!-- panel section end -->
 
+  <!-- navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="assets/images/1.jpg" alt=""> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active bd" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bd" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown bd">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Photo Frames</a></li>
+              <li><a class="dropdown-item" href="#">Photo Laminations</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Printed Mugs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="login.html"><button class="btn btn-outline-success" type="">Login</button></a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar section ends  -->
+  <!-- <marquee behavior="" direction="to right">Special discount</marquee> -->
+  <main>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/frame1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/frame2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/frame3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
-        </pre>
-        <div class="header-2">
-            <div class="container">
-                <h2>Photo with Frames</h2>
-                <p>Re-live your golden memories by decorating your home with photographs</p>
-            </div>
+    <div class="header1">
+      <h2>Photo with Frames</h2>
+      <p>Re-live your golden memories by decorating your home with photographs</p>
+    </div> <br />
+
+    <div class="frames">
+      <div class="box" id="frame1">
+        <a href=""><img src="assets/images/pic1.webp" alt=""></a>
+        <h5>Photo with classix Frames</h5>
+        <p><strong> &#8377;384.10</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame2">
+        <a href=""><img src="assets/images/pic2.webp" alt=""></a>
+        <h5>Photo with Wall Frames</h5>
+        <p><strong>&#8377;955.80</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame3">
+        <a href=""><img src="assets/images/pic3.webp" alt=""></a>
+        <h5>Canvas Photo with Frames</h5>
+        <p><strong>&#8377;984.48</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame4">
+        <a href=""><img src="assets/images/pic4.webp" alt=""></a>
+        <h5>Matte Photo with Frames</h5>
+        <p><strong>&#8377;955.80</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame5">
+        <a href=""><img src="assets/images/pic5.webp" alt=""></a>
+        <h5>Crystal Acrylic Photo Frames</h5>
+        <p><strong>&#8377;247.80</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame6">
+        <a href=""><img src="assets/images/pic6.webp" alt=""></a>
+        <h5>Frameless Photo with Frames</h5>
+        <p><strong>&#8377;507.40</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame7">
+        <a href=""><img src="assets/images/pic7.webp" alt=""></a>
+        <h5>Photo with LED Frames</h5>
+        <p><strong>&#8377;2832.00</strong> for 1 piece</p>
+      </div>
+      <div class="box" id="frame8">
+        <a href=""><img src="assets/images/pic8.webp" alt=""></a>
+        <h5>Personalized Selfie Frames</h5>
+        <p><strong>&#8377;647.80</strong> for 1 piece</p>
+      </div>
+    </div>
+
+    <div class="header2">
+      <h2>Shop Photo Frames by Sizes</h2>
+    </div> <br />
+
+    <div class="frames">
+      <div class="box" id="frame1">
+        <a href=""><img src="assets/images/size1.webp" alt=""></a>
+        <h5>4 x 6 in</h5>
+        <p>Desktop stand only</p>
+      </div>
+      <div class="box" id="frame2">
+        <a href=""><img src="assets/images/size2.webp" alt=""></a>
+        <h5>6 x 8 in</h5>
+        <p>Desk & wall mount</p>
+      </div>
+      <div class="box" id="frame3">
+        <a href=""><img src="assets/images/size3.webp" alt=""></a>
+        <h5>A4</h5>
+        <p>Desk & wall mount</p>
+      </div>
+      <div class="box" id="frame4">
+        <a href=""><img src="assets/images/size4.webp" alt=""></a>
+        <h5>9 x 12 in</h5>
+        <p>Wall Mount</p>
+      </div>
+      <div class="box" id="frame5">
+        <a href=""><img src="assets/images/size5.webp" alt=""></a>
+        <h5>12 x 12 in</h5>
+        <p>Wall Mount</p>
+      </div>
+      <div class="box" id="frame6">
+        <a href=""><img src="assets/images/size6.webp" alt=""></a>
+        <h5>12 x 18 in</h5>
+        <p>Wall Mount</p>
+      </div>
+      <div class="box" id="frame7">
+        <a href=""><img src="assets/images/size7.webp" alt=""></a>
+        <h5>14 x 18 in</h5>
+        <p>Wall Mount</p>
+      </div>
+      <div class="box" id="frame8">
+        <a href=""><img src="assets/images/size8.webp" alt=""></a>
+        <h5>18 x 24 in</h5>
+        <p>Wall Mount</p>
+      </div>
+    </div>
+    <div class="whatsapp">
+      <a href=""><img src="assets/images/whatsapp.png" alt="Whatsapp image"></a>
+    </div>
+    <!-- footer starts -->
+    <footer>
+      <div class="foot-logo">
+        <img src="assets/images/1.jpg" alt="">
+        <span>Made with <i class="fa-regular fa-heart"></i></span>
+        <p>&#xa9; 2024 Shivdaya Photo Frames Pvt.Ltd...All Rights Reserved.</p>
+      </div>
+      <div class="foot-1">
+        <h3>Address</h3>
+        <div class="address">
+          <p>Sec-19 Koparkhairne Shop- 115,</p>
+          <p>below Niketan Bldg.</p>
         </div>
-        <div class="container">
-            <div class="crocser">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/images/frame1.jpg" class="d-block w-100 h-30" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/images/frame2.jpg" class="d-block w-100 h-30" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="assets/images/frame3.jpg" class="d-block w-100 h-30" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
-            </div> <br/>
-        </div>
-        <div class="container">
-            <div class="frames">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 18rem;">
-                    <img src="assets/images/photo3.jpg" class="card-img-top" height="50px" alt="...">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
-        <div class="container">
-            <h2>Hello</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui accusamus dignissimos expedita distinctio laudantium minima praesentium dolorum placeat adipisci quasi voluptates delectus, provident corrupti, id accusantium voluptate cumque ut? Commodi aperiam assumenda, tempora natus repudiandae ratione aliquam eligendi cumque qui eveniet impedit consequatur suscipit ipsa nulla facere. Vero, voluptatem eum.</p>
-        </div>
-        
-    </main>
+      </div>
+      <div class="foot-2">
+        <h3>Contacts</h3>
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 7400288925</span> <br/>
+        <i class="fa-solid fa-envelope"></i>
+        <span>akashkumar33380@gmail.com</span>
+      </div>
+      <div class="foot-3">
+        <h3>Social Media</h3>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
 
 </html>
